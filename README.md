@@ -59,7 +59,7 @@ trees, soo keep in mind that the execution times will vary greatly upon:
 sequence_length, num of sequences, number of different fragment lengths,
 fragment lengths, type of preparation, and finally your computer specs.
 <br><br>
-# One minute tutorial:<br>
+# One minute tutorial<br>
 1- Create a (multi)fasta file containing one or more polyprotein aa sequence(s)<br>
 2- Create another fasta for the interfaces (they all must have the same size,
 so, in case of larger interfaces, croping is advised);<br>
