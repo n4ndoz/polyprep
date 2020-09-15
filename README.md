@@ -1,8 +1,7 @@
 # polyprep <br>
 # PolyProtein REpresentation Preparator   #<br>
-<br>
-<br>
-#  Description<br>
+
+# Description<br>
 This script is one of the results of my undergrad Work as a research intern
 at Inmetro (RJ, Brazil). At the time my work was to study substract recognition
 on the HIV-1 protease, in light of machine learning methods. This code was
@@ -43,7 +42,7 @@ did implemented a more random way of doing this, with PeptideBuilder
 library assembling fragments with phi-psi dihedrals randomized through
 a [-pi,pi] uniform distribution.<br>
 <br>
-#  Usage<br>
+# Usage<br>
 <br>
 Using this script is simple. It expects the user too provide 3 required
 inputs and one optional one. In orther to perform the entire routine 
@@ -60,7 +59,7 @@ trees, soo keep in mind that the execution times will vary greatly upon:
 sequence_length, num of sequences, number of different fragment lengths,
 fragment lengths, type of preparation, and finally your computer specs.
 <br><br>
-# 1 minute tutorial:<br>
+# One minute tutorial:<br>
 1- Create a (multi)fasta file containing one or more polyprotein aa sequence(s)<br>
 2- Create another fasta for the interfaces (they all must have the same size,
 so, in case of larger interfaces, croping is advised);<br>
