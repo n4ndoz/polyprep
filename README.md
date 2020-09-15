@@ -1,7 +1,5 @@
 # polyprep <br>
-# ##########################################<br>
 # PolyProtein REpresentation Preparator   #<br>
-# ##########################################<br>
 <br>
 <br>
 #  Description<br>
