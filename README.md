@@ -1,11 +1,11 @@
 # polyprep
 ###########################################
-# PolyProtein REpresentattio Preparator   #
+# PolyProtein REpresentation Preparator   #
 ###########################################
 
 
 ## Description
-This script is one of the results of my undergrad Work as a research intern
+This script is one of the results of my undergrad Work as a research intern <br>
 at Inmetro (RJ, Brazil). At the time my work was to study substract recognition
 on the HIV-1 protease, in light of machine learning methods. This code was
 a supporting partof both my work and my Tutor's (MFR Dias) PhD Thesis.
