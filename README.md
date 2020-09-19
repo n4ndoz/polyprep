@@ -48,6 +48,10 @@ For reproducibility information, the Gag-pol sequence we used had GeneBank ID NP
 <br><br>
 
 
+# Requirements <br>
+Python 3+
+Biopython (was developed using version 1.76) 
+
 # Usage<br>
 <br>
 Using this script is simple. It expects the user too provide 3 required
