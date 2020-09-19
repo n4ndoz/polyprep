@@ -32,7 +32,7 @@ distribution linear symmetry plays a role on protease substract recoognition.
 So we wanted to capture all sequences containing not only the entire interface
 but neighbouring elements of sequence space.
 <br>
-*: The template can be any protein with sequence len > len_frags. It is just
+Note: The template can be any protein with sequence len $>$ len_frags. It is just
 a dummy molecule, so as to base itself upon and use Modellers optimization
 algorithms and DOPE score function to produce "physically plausible" 
 structures. These structures, upon docking initiallization, will probably
@@ -42,6 +42,9 @@ did implemented a more random way of doing this, with PeptideBuilder
 library assembling fragments with phi-psi dihedrals randomized through
 a [-pi,pi] uniform distribution.<br>
 <br>
+<br>
+The results produced for my Undergraduate Work conained within [this link] (http://google.com.br)
+
 # Usage<br>
 <br>
 Using this script is simple. It expects the user too provide 3 required
