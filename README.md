@@ -63,7 +63,7 @@ sequence_length, num of sequences, number of different fragment lengths,
 fragment lengths, type of preparation, and finally your computer specs.
 <br><br>
 
-The results produced for my Undergraduate Work conained within [this link] (https://drive.google.com/file/d/1aMLiq-4hYsNEqLG1vhDkE9WGdzQWFpUI/view?usp=sharing)
+The results produced for my Undergraduate Work are contained within [this link](https://drive.google.com/file/d/1aMLiq-4hYsNEqLG1vhDkE9WGdzQWFpUI/view?usp=sharing)
 
 # One minute tutorial<br>
 1- Create a (multi)fasta file containing one or more polyprotein aa sequence(s)<br>
