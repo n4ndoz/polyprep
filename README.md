@@ -43,7 +43,7 @@ library assembling fragments with phi-psi dihedrals randomized through
 a [-pi,pi] uniform distribution.<br>
 <br>
 <br>
-The results produced for my Undergraduate Work conained within ![this link] (http://google.com.br)
+
 
 # Usage<br>
 <br>
@@ -62,6 +62,8 @@ trees, soo keep in mind that the execution times will vary greatly upon:
 sequence_length, num of sequences, number of different fragment lengths,
 fragment lengths, type of preparation, and finally your computer specs.
 <br><br>
+
+The results produced for my Undergraduate Work conained within [this link] (https://drive.google.com/file/d/1aMLiq-4hYsNEqLG1vhDkE9WGdzQWFpUI/view?usp=sharing)
 
 # One minute tutorial<br>
 1- Create a (multi)fasta file containing one or more polyprotein aa sequence(s)<br>
