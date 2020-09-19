@@ -1,6 +1,3 @@
-# Mudar a seq , basta usar 3 '''
-
-
 class FragFactory(object):
     def __init__(self,**kwargs):
         
@@ -26,10 +23,10 @@ class FragFactory(object):
     @staticmethod        
     def make_frags(seq,len_frag, interfaces, filename='',to_file=True):
         assert len_frag >=3, "Cannot operate on fragments less than 3 residues long!"
-        if len_frag > 8: print("WARNING! This script wasnt tested fr fragment lengths greater than 8")
+        if len_frag > 8: print("WARNING! This script wasn't tested for fragment lengths greater than 8")
         # Asserts if the interfaces are of even length
         # otherwisethe script cannot center on a residue pair and terminates
-        assert len(interfaces[0]) % 2 == 0, "You provided interfaces of even length, cannot center on a residue pair"
+        assert len(interfaces[0]) % 2 == 0, "You provided interfaces of even length, cannot center on a pair of residues"
         cutoff = len_frag - (1+len(interfaces[0])//2)
             
         pos_list=[]
@@ -39,20 +36,20 @@ class FragFactory(object):
         pre_list = []
         for j in range(len(interfaces)):
             m = seq.find(interfaces[j])
-            n = m+8
-            frag = seq[m-cutoff:n+cutoff]
+            n = m+len(interfaces[j])
+            frag = seq[m-cutoff:n+cutoff] if m != -1 else ''
             pre_list.append(frag)
 
         j=0
         final_list = []
         with open(filename, 'w') as f:
-            for seq in pre_list:
-                for i in range(len(seq)-len_frag+1):
+            for sequence in pre_list:
+                for i in range(len(sequence)-len_frag+1):
                     if to_file:
                         header = ">pep_POS_"+str(len_frag)+'aa_'+str(j)+'-'+str(i)+'\n'
                         f.write(header)
-                        f.write(seq[i:i+len_frag]+'\n')
-                    final_list.append(seq[i:i+len_frag])
+                        f.write(sequence[i:i+len_frag]+'\n')
+                    final_list.append(sequence[i:i+len_frag])
                 j+=1
         return final_list
 
@@ -83,8 +80,6 @@ class FragFactory(object):
         i=1
         for seq_i,seq in enumerate(self.seq_list):
             for l in self.len_frags:                    
-                pos_frags = self.make_frags(seq,l, self.interfaces, "frag_POS_{}aa_seq_{}.fas".format(l,seq_i))
-                neg_frags = self.make_neg(seq,pos_frags, l,"frags_NEG_{}aa_seq_{}.fas".format(l,seq_i))
+                pos_frags = self.make_frags(seq,l, self.interfaces, "Length_{}_POS_seq_{}.fas".format(l,seq_i))
+                neg_frags = self.make_neg(seq,pos_frags, l,"Length_{}_NEG_seq_{}.fas".format(l,seq_i))
                 self.frags['seq_{}_{}aa'.format(i,l)] = [pos_frags, neg_frags]
-
-
