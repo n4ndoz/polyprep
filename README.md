@@ -84,9 +84,10 @@ fragment multifasta, produced by the Fragment Factory module.<br>
 <br>
 <br>
 <br>
-# Reproducibility
-<br>
-For you to reproduce every result listed on the introduction of this README, there are some example files provided inside the 'example/' folder. Those were the data used during my undergrad work.
+# Reproducibility <br>
+For you to reproduce every result listed on the introduction of this README,
+there are some example files provided inside the 'example/' folder. Those were the data used during my undergrad work.
+
 # ToDo:<br>
 1- Implement a better logging mechanism.<br>
 2- Reimplement the directory creation mechanism.<br>
