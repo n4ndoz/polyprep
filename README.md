@@ -42,7 +42,10 @@ did implemented a more random way of doing this, with PeptideBuilder
 library assembling fragments with phi-psi dihedrals randomized through
 a [-pi,pi] uniform distribution.<br>
 <br>
+The results produced for my Undergraduate Work are contained within [this link.](https://drive.google.com/file/d/1aMLiq-4hYsNEqLG1vhDkE9WGdzQWFpUI/view?usp=sharing
 <br>
+For reproducibility information, the Gag-pol sequence we used had GeneBank ID NP_057849.4 and the interfaces used were gathere from this [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2806847/).
+<br><br>
 
 
 # Usage<br>
@@ -63,7 +66,7 @@ sequence_length, num of sequences, number of different fragment lengths,
 fragment lengths, type of preparation, and finally your computer specs.
 <br><br>
 
-The results produced for my Undergraduate Work are contained within [this link](https://drive.google.com/file/d/1aMLiq-4hYsNEqLG1vhDkE9WGdzQWFpUI/view?usp=sharing)
+)
 
 # One minute tutorial<br>
 1- Create a (multi)fasta file containing one or more polyprotein aa sequence(s)<br>
