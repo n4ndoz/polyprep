@@ -82,6 +82,11 @@ so, in case of larger interfaces, croping is advised);<br>
 At the end all the models will be under a directory named after the original
 fragment multifasta, produced by the Fragment Factory module.<br>
 <br>
+<br>
+<br>
+# Reproducibility
+<br>
+For you to reproduce every result listed on the introduction of this README, there are some example files provided inside the 'example/' folder. Those were the data used during my undergrad work.
 # ToDo:<br>
 1- Implement a better logging mechanism.<br>
 2- Reimplement the directory creation mechanism.<br>
