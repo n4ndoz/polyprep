@@ -8,7 +8,7 @@ import traceback
 #  This script consists of a reimplementation of                        #
 #  Modeller's tutorial script. Since it uses default                    #
 #  parameters, and those worked for most protocols I ran.               #
-#  Have in mind that this script was written around 3 years             #
+#  Have in mind that this script was written a long time                #
 #  ago and consists of one of my first "useful" scripts.                #
 #  In June 2020 I edited this code but did not change much              #
 #  of it's structures. All the rights for the modelling parts           #
